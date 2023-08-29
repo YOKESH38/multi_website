@@ -1,0 +1,130 @@
+/* smart phone and android viewport */
+@media(max-width:768px){
+	.d_mb{
+	display:none;
+}
+ .container{
+   width:100%;
+ }
+ .col-mb1{
+	width:8.33%;
+	padding:0 15px;
+}
+.col-mb2{
+
+	width:16.66%;
+	padding:0 15px;
+}
+.col-mb3{
+	width:25%;
+	padding:0 15px;
+}
+.col-mb4{
+	width:33.33%;
+	padding:0 15px;
+}
+.col-mb5{
+	width:41.66%;
+	padding:0 15px;
+}
+.col-mb6{
+	width:50%;
+	padding:0 15px;
+}
+.col-mb7{
+	width:58.33%;
+	padding:0 15px;
+}
+.col-mb8{
+	width:66.66%;
+	padding:0 15px;
+}
+.col-mb9{
+	width:75%;
+	padding:0 15px;
+}
+.col-mb10{
+	width:83.33%;
+	padding:0 15px;
+}.col-mb11{
+	width:91.66%;
+	padding:0 15px;
+}.col-mb12{
+	width:100%;
+	padding:0 15px;
+	position:relative;
+}
+.mb{
+	flex:none;
+}
+}
+
+
+/* tap and ipad viewport */
+
+@media (min-width:768px) and (max-width:999px)
+{
+.d_tap{
+	display:none;
+}
+.container{
+   width:100%;
+ }
+ 
+.col-tap1{
+	width:8.33%;
+	padding:0 15px;
+}
+.col-tap2{
+	width:16.66%;
+	padding:0 15px;
+}
+.col-tap3{
+	width:25%;
+	padding:0 15px;
+}
+.col-tap4{
+	width:33.33%;
+	padding:0 15px;
+}
+.col-tap5{
+	width:41.66%;
+	padding:0 15px;
+}
+.col-tap6{
+	width:50%;
+	padding:0 15px;
+}
+.col-tap7{
+	width:58.33%;
+	padding:0 15px;
+}
+.col-tap8{
+	width:66.66%;
+	padding:0 15px;
+}
+.col-tap9{
+	width:75%;
+	padding:0 15px;
+}
+.col-tap10{
+	width:83.33%;
+	padding:0 15px;
+}.col-tap11{
+	width:91.66%;
+	padding:0 15px;
+}.col-tap12{
+	width:100%;
+	padding:0 15px;
+}
+.end{
+	display:flex;
+	justify-content:right;
+	
+}
+}
+@media (min-width:1000px){
+.display{
+  display:block;
+}
+}
